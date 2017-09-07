@@ -1,0 +1,77 @@
+body, html {
+    height: 100%;
+    background-image: url("../img/r3.jpg");
+    overflow-x: hidden;
+}
+
+#foot {
+  font-size: 20px;
+  color: white;
+  text-align: center;
+  height: 30px;
+  background-color: #212121;
+}
+
+#cont1 {
+  padding-top: 80px;
+}
+
+#extender {
+  height: 10%;
+  background-position: center;
+}
+
+.lines {
+  background-color: #212121;
+  margin-top: 25px;
+  align-items: center;
+}
+
+.default {
+  font-size: 48px;
+  color: white;
+  background-position: center;
+  text-align: center;
+  padding-top: 20px;
+  overflow-x: hidden;
+}
+.container {
+  align-content: center;
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+
+.image {
+  display: block;
+  height: auto;
+  align-items: center;
+  align-self: center;
+  padding-left: 20px;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #757575;
+}
+
+.container:hover .overlay {
+  opacity: 0.9;
+}
+
+.text {
+  color: black;
+  font-size: 24px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}

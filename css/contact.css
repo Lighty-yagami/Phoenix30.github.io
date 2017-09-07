@@ -1,0 +1,51 @@
+body, html {
+    height: 100%;
+    background-image: url("../img/r3.jpg");
+    overflow-x: hidden;
+}
+
+#foot {
+  font-size: 20px;
+  color: white;
+  text-align: center;
+  height: 30px;
+  background-color: #212121;
+}
+
+#sec1 {
+  height: 100%;
+  font-size: 32px;
+  color: white;
+  padding-top: 15%;
+  text-align: center;
+}
+
+#details {
+  padding-top: 20px;
+}
+
+#r1 {
+  padding-top: 120px;
+  padding-left: 40px;
+}
+
+#r2 {
+  padding-top: 50px;
+  padding-left: 40px;
+}
+
+#extender {
+  height: 10%;
+  background-position: center;
+}
+
+.img-circle{
+  border-radius: 50%;
+  border-style: dotted;
+}
+
+.sec2 {
+  padding-top: 80px;
+  height:100%;
+  padding-left: 40px;
+}

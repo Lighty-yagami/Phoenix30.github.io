@@ -1,0 +1,33 @@
+body, html {
+    height: 100%;
+    background-image: url("../img/r3.jpg");
+    overflow: hidden;
+}
+
+#foot {
+  font-size: 20px;
+  color: white;
+  text-align: center;
+  height: 30px;
+  background-color: #212121;
+}
+
+#centerField {
+  top: 50%;
+  left: 50%;
+  width:16em;
+  height:6em;
+  margin-top: -3em;
+  margin-left: -8em;
+  font-size: 36px;
+  color: white;
+  position: absolute;
+  text-align: center;
+  vertical-align: middle;
+}
+
+#point {
+  height: 10px;
+  width: 10px;
+  background-color: red;
+}
